@@ -87,9 +87,9 @@ html {
 
 body {
   font-family: "roboto", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-style: none;
-  line-height: 24px;
+  line-height: 30px;
   font-weight: 500;
   overflow-x: hidden !important;
   text-align: left;
@@ -524,11 +524,11 @@ ul {
   background-position: center center; }
 
 
-.featured-img-one {
+/*.featured-img-one {
   background-image: url(../images/home-bg-img.jpg); }
 
 .featured-img-two {
-  background-image: url(../images/extra-feature-bg.jpg); }
+  background-image: url(../images/extra-feature-bg.jpg); }*/
 
 .map-image {
   background-image: url(../images/map-color-overlay.png); }
@@ -1643,16 +1643,18 @@ body {
     ==============
 */
 .mh-footer-address {
-  margin-bottom: 60px; }
+  margin-bottom: 60px; 
+  margin-top: 60px;}
   .mh-footer-address .mh-address-footer-item {
     padding: 30px;
     text-align: center;
     margin-bottom: 30px; }
     .mh-footer-address .mh-address-footer-item h4 {
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
     .mh-footer-address .mh-address-footer-item address {
       margin-bottom: 0; }
     .mh-footer-address .mh-address-footer-item .each-icon {
+      margin-top: 30px;
       margin-bottom: 30px; }
       .mh-footer-address .mh-address-footer-item .each-icon .fa {
         text-align: center;
@@ -1661,7 +1663,7 @@ body {
         border: 1px solid;
         border-radius: 50%;
         line-height: 100px;
-        font-size: 20px;
+        font-size: 30px;
         border-color: #0bceaf; }
 
 /*
